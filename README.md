@@ -9,7 +9,7 @@ This test demonstates the implementation of Automation testing for the given API
 ## Frameworks used
 - cucumber.js (https://cucumber.io/)
 - Axios (for API call)
-- PactumJs (An alternative framework to test API preferred by Cucumber.io community and equivalent to RESTAssured in Java - Commented out in code now as axios is primarily used)
+- PactumJs (An alternative framework to test API, preferred by Cucumber.io community and equivalent to RESTAssured in Java. Used for tests related to error scenarios.)
 - Chai (for assertions)
 
 ## How to Run
@@ -28,5 +28,7 @@ $ npm run test
 ```
 
 ### View reports
-After the tests are executed, the reports are generated and saved in HTML format. Please refer to path -> `<ProjectDirectory>/reports/cucumber-report.html`
+After the tests are executed, the reports are generated and saved in HTML format. Please refer to path for a sample report -> `<ProjectDirectory>/reports/cucumber-report.html`
 
+## Manual Tests
+Please find the manual test scenarios asked in the tasks in root folder of this project in file Manual_Test_Scenarios.feature.
