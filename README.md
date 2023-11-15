@@ -16,7 +16,7 @@ This test demonstates the implementation of Automation testing for the given API
 
 ### Steps to setup the code
 - `git clone` repo, `cd` into directory
-- `npm install`
+- `npm ci`
 
 ### Steps to run the tests
 ```bash
